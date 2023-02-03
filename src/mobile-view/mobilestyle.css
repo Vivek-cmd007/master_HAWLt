@@ -1,0 +1,7 @@
+.landing-page-mob{
+    margin-left: -10px;
+    padding-right: 2px;
+    background-image: url('../../public/images/pic2landing.jpg');
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}

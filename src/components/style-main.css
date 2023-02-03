@@ -1,0 +1,253 @@
+
+
+/* see more component */
+.seemore-list{
+    list-style: none;
+    text-align: right;
+    padding-right: 5.5rem;
+}
+.seemore-list .display-6{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.seemore-para{
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.seemore-container{
+    background-image: url('../../public/images/see1.jpg');
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+/* .seemore-card{
+    margin-left: 8.5rem;
+    margin-right: 8.5rem;
+} */
+/* seemore-but-01 */
+.seemore-but-01{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    color:#e83f60;
+    border-style: none;
+    background-color: white;
+}
+
+
+/* host your property */
+.seemore-list-host{
+    list-style: none;
+    padding-right: 5.5rem;
+    background-image: url('../../public/images/host1.jpg');
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.host-container{
+    margin-left: 8.5rem;
+    margin-right: 8.5rem;
+    
+}
+
+/* host-but-01 */
+.host-but-01{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    color:#10121d;
+    border-style: none;
+    background-color: white;
+}
+
+/* main-travelmenu-01 */
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* main-component-3 */
+.main-component-3{
+    padding-left: 2rem;
+}
+
+/* exampleFormControlInput1 */
+.mb-3{
+    width: 50rem;
+}
+
+/* form designs */
+#contact-form-but{
+    background-color: black;
+    width: 200px;
+}
+
+/* mobile view */
+@media only screen and (max-width: 600px){
+	.form-control{
+        /* background-color: red; */
+        width: 340px;
+    }
+}
+
+
+/* subpage-crousal */
+.carousel-item{
+   height: 500px;
+   object-fit: contain;
+}
+
+
+@media only screen and (max-width: 600px){
+	.carousel-item{
+        height: auto;
+        width: 500px;
+    }
+}
+
+/* popular-tag */
+.popular-tag {
+    letter-spacing: 1px;
+    color: #10121d;
+    padding: 25px;
+    padding-top: 35px;
+}
+.popular-tag h6 svg{
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+/* heading-compo3 */
+.heading-compo3{
+    padding-left: 40px;
+}
+
+/* lead-hosting */
+.lead-hosting h6 svg{
+    margin-top: -3px;
+    margin-right: 5px;
+}
+.lead-hosting{
+    letter-spacing: 1px;
+}
+
+/* lead-seemore */
+.lead-seemore{
+    letter-spacing: 1px;
+}
+.lead-seemore h6 svg{
+    margin-top: -3px;
+}
+
+
+/* head-logo-sub */
+.head-logo-sub svg{
+    margin-top: -8px;
+    margin-left: 5px;
+}
+
+/* subpage-nav */
+.subpage-nav{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 20px;
+}
+
+/* subpage-last-but */
+.subpage-last-but button{
+    background-color: #10121d;
+    width: 200px;
+}
+.subpage-last-but{
+    margin-bottom: 30px;
+}
+
+.subpage-last-but :hover{
+    background-color: white;
+    color: black;
+}
+
+/* nav signup button */
+.nav-item button{
+    width: 100px;
+    border-radius: 20px;
+    color: #10121d;
+    background-color: transparent;
+}
+.nav-item button :hover{
+    background-color: #10121d;
+    color: white;
+}
+
+/* loader-allproperty */
+.loader-allproperty{
+    margin-bottom: 50px;
+}
+
+/* user-logo */
+.user-logo{
+    padding-top: 6px;
+    padding-right: 10px;
+}
+.col{
+    transition: transform .4s;
+}
+.col:hover{
+    transform: scale(1.1);
+}
+
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+  .all-prop-main{
+    /* background-color: red; */
+    margin-left: -14px;
+    }
+    .search-input-all{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .compo3-mob-view{
+        margin-left: -10px;
+        /* background-color: red; */
+    }
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .areaone-cards{
+        margin-left: -10px;
+        /* background-color: red; */
+    }
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .popularcity-cards-col{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        /* background-color: red; */
+    }
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .review-mob-view{
+        /* background-color: red; */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+
+
+
+
+
+/* 👌😍 */

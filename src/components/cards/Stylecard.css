@@ -1,0 +1,314 @@
+.card-one-list ul{
+    list-style: none;
+    padding-top: 5px;
+}
+
+.h6{
+    letter-spacing: 1px;
+}
+
+/* scroll-city */
+
+
+.card-one-list{
+    /* border-style: groove; */
+    border-top: 5px solid rgb(80, 204, 204);
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
+}
+.card-one-main{
+    /* padding-top: 10px; */
+    width: 270px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* background-color: red; */
+}
+.card-body{
+  text-align: left;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* nav bar */
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* property card */
+.green-grass-background-footbal-icon,
+.rectangle-div {
+  position: absolute;
+  top: 22px;
+  left: 26px;
+  border-radius: 15px;
+  width: 20rem;
+}
+.rectangle-div {
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 288px;
+  cursor: pointer;
+}
+.green-grass-background-footbal-icon {
+  height: 156px;
+  object-fit: cover;
+}
+.rectangle-div1 {
+  position: absolute;
+  top: 166px;
+  left: 27px;
+  background-color: var(--color-white);
+  width: 321px;
+  height: 67px;
+}
+.prasanth-pg-hostel {
+  top: 181px;
+  left: 38px;
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  color: black;
+}
+.div,
+.person-div,
+.prasanth-pg-hostel,
+.total-cost-div {
+  position: absolute;
+  letter-spacing: -0.05em;
+  line-height: 100%;
+  display: inline-block;
+  color: black;
+}
+.total-cost-div {
+  top: 234px;
+  left: 40px;
+  font-size: 9px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 14px;
+}
+.div,
+.person-div {
+  top: 248px;
+  color: black;
+}
+.person-div {
+  left: 82px;
+  font-size: 10px;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 10px;
+  padding-top: 11px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.div {
+  left: 50px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: black;
+}
+.swamy-vivekananda-rd {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 10px;
+  color: black;
+}
+.button-div,
+.swamy-vivekananda-rd-opp-cha {
+  letter-spacing: -0.05em;
+  line-height: 100%;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  
+}
+.swamy-vivekananda-rd-opp-cha {
+  position: absolute;
+  top: 199px;
+  left: 38px;
+  font-weight: 300;
+  width: 254px;
+}
+.button-div {
+  position: relative;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-family: var(--font-abeezee);
+  color: var(--color-white);
+  text-align: center;
+  border-style:groove;
+  border-width: 1.5px;
+  padding: 5px;
+  border-color: grey;
+  color: black;
+}
+.buttons :hover{
+  background-color: black;
+  color: white;
+}
+
+.buttons,
+.buttons-input {
+  border: 0;
+  background-color: var(--main-colors-gray-4);
+  position: absolute;
+  top: 268px;
+  border-radius: var(--br-sm);
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  cursor: pointer;
+  left: 203px;
+  width: 129px;
+}
+.buttons-input {
+  left: 41px;
+  width: 153px;
+}
+.ellipse-icon,
+.vuesaxlinearcall-icon {
+  position: absolute;
+  top: 273px;
+  left: 77px;
+  width: 15px;
+  height: 15px;
+}
+.ellipse-icon {
+  top: 133px;
+  left: 307px;
+  width: 32px;
+  height: 32px;
+}
+.vuesaxlinearheart-icon {
+  position: absolute;
+  top: 141px;
+  left: 317px;
+  width: 12px;
+  height: 12px;
+}
+.vuesaxlinearflash-icon {
+  position: absolute;
+  top: 141.32px;
+  left: 101.19px;
+  width: 18.6px;
+  height: 22.5px;
+}
+.vuesaxlinearwifi-icon {
+  position: absolute;
+  top: 141px;
+  left: 73.5px;
+  width: 22px;
+  height: 18.72px;
+}
+.icons8-star-48-1-2,
+.vuesaxlinearmonitor-icon {
+  position: absolute;
+  top: 139.5px;
+  left: 46.5px;
+  width: 22px;
+  height: 22px;
+}
+.icons8-star-48-1-2 {
+  top: 33px;
+  left: 312px;
+  object-fit: cover;
+}
+.icons8-star-48-1-3,
+.icons8-star-48-1-4,
+.icons8-star-48-1-5,
+.icons8-star-48-1-6 {
+  position: absolute;
+  top: 33px;
+  left: 298px;
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+}
+.icons8-star-48-1-4,
+.icons8-star-48-1-5,
+.icons8-star-48-1-6 {
+  left: 284px;
+}
+.icons8-star-48-1-5,
+.icons8-star-48-1-6 {
+  left: 270px;
+}
+.icons8-star-48-1-6 {
+  left: 256px;
+}
+.div1 {
+  position: absolute;
+  top: 248px;
+  left: 42px;
+  letter-spacing: -0.05em;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+  width: 7px;
+  height: 14px;
+}
+.iphone-8-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+/* travel-card */
+
+
+@media only screen and (max-width: 600px){
+	.travel-card{
+    /* background-color: red; */
+    width:340px;
+    border-style: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .travel-card{
+    /* background-color: red; */
+    width:650px;
+    }
+}
+
+/* property-card */
+.property-card{
+  /* background-color: red; */
+  width: 400px;
+  }
+@media only screen and (max-width: 600px){
+	.property-card{
+    /* background-color: red; */
+    width:350px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .property-card{
+    /* background-color: red; */
+    width:340px;
+    }
+}
+
+/* travel card */
+.travel-card img{
+   opacity: 0.6;
+}
+
+.travel-card{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+

@@ -1,0 +1,24 @@
+/* .Landingpage-main{
+    background-image: url('./Picone.jpg');
+    background-size: cover;
+} */
+.list-head{
+    list-style: none;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    /* background-color: red; */
+}
+.lead{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.landing-search{
+    margin: auto;
+}
+.landing_but1{
+    border-radius: 5px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+}

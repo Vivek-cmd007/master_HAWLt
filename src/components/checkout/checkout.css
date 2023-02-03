@@ -1,0 +1,30 @@
+.date-picker{
+    /* background-color: red; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.date-picker input{
+    /* background-color: red; */
+    width: 280px;
+    height: 45px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-color: grey;
+    border-radius: 5px;
+}
+.bill-sum{
+    margin-bottom: 50px;
+    /* background-color: red; */
+}
+.checkout-but{
+    width: 250px;
+    border-radius: 5px;
+    height: 35px;
+}
+.checkout-but:hover{
+    color: white;
+    background-color: black;
+}
+.main-checkout-but{
+    margin-bottom: 55px;
+}
